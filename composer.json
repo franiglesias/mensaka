@@ -1,0 +1,34 @@
+{
+    "name": "talkingbit/mensaka",
+    "description": "A messaging system for PHP applications",
+    "type": "library",
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "require": {
+        "php": "^7.0",
+        "symfony/dependency-injection": "^3.2",
+        "container-interop/container-interop": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TalkingBit\\Mensaka\\": ["src/Mensaka"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Mensaka\\": ["test/Mensaka"]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fran Iglesias",
+            "email": "franiglesias@mac.com",
+            "role": "Developer"
+        }
+    ]
+}
